@@ -19,7 +19,7 @@ public class ProyectoBranch {
     public static void main(String[] args) {
        int numero=Integer.parseInt(JOptionPane.showInputDialog("Introduce o 1º numero"));
        int pedido=Integer.parseInt(JOptionPane.showInputDialog("Introduce o 2º numero"));
-       JOptionPane.showMessageDialog(null, numero +"+"+ pedido+" = " + (numero+pedido));
+       JOptionPane.showMessageDialog(null, numero +"+"+ pedido+" = " + (numero*pedido));
     }
     
 }
