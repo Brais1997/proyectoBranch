@@ -17,6 +17,8 @@ public class ProyectoBranch {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+       int numero=Integer.parseInt(JOptionPane.showInputDialog("Introduce o 1º numero"));
+       int pedido=Integer.parseInt(JOptionPane.showInputDialog("Introduce o 2º numero"));
     
     }
     
